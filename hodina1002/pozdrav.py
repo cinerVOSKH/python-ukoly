@@ -6,7 +6,7 @@ if hodina < 0:
     print("Hodina nemůže být záporná.")
 
 
-elif hodina > 23:
+elif hodina > 21 :
     print("Dobrou noc")
 
 # Samotné pozdravy
@@ -22,3 +22,5 @@ elif hodina >= 13 and hodina <= 17:
 elif hodina >= 18 and hodina <= 21:
     print("Dobrý večer")
 
+else:
+    print("Dobrou noc")
